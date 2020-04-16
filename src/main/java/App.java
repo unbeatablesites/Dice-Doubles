@@ -17,8 +17,8 @@ public class App {
         int randomRoll1 = 1 + rand.nextInt(6);
         int randomRoll2 = 1 + rand.nextInt(6);
 
-        System.out.println("Roll #1:" +randomRoll1);
-        System.out.println(randomRoll2);
+        System.out.println("Roll #1:" + randomRoll1 );
+        System.out.println("Roll #2:" + randomRoll2 );
 
 
     }
