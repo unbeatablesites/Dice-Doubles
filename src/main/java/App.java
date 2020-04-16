@@ -20,7 +20,17 @@ public class App {
         System.out.println("Roll #1: " + randomRoll1 );
         System.out.println("Roll #2: " + randomRoll2 );
 
-        System.out.println("The total is "+ (randomRoll1 + randomRoll2));
+        System.out.println("The total is "+ (randomRoll1 + randomRoll2)+"!");
+
+        while(randomRoll1 != randomRoll2){
+
+             randomRoll1 = 1 + rand.nextInt(6);
+             randomRoll2 = 1 + rand.nextInt(6);
+
+            System.out.println("Roll #1: " + randomRoll1 );
+            System.out.println("Roll #2: " + randomRoll2 );
+
+        }
 
 
     }
