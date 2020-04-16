@@ -16,6 +16,7 @@ public class App {
 
         int randomRoll1 = 1 + rand.nextInt(6);
         int randomRoll2 = 1 + rand.nextInt(6);
+        int count = 0;
 
         System.out.println("Roll #1: " + randomRoll1 );
         System.out.println("Roll #2: " + randomRoll2 );
@@ -23,13 +24,14 @@ public class App {
         System.out.println("The total is "+ (randomRoll1 + randomRoll2)+"!\n");
 
         while(randomRoll1 != randomRoll2){
-
+            count ++;
              randomRoll1 = 1 + rand.nextInt(6);
              randomRoll2 = 1 + rand.nextInt(6);
 
             System.out.println("Roll #1: " + randomRoll1 );
             System.out.println("Roll #2: " + randomRoll2 );
             System.out.println("The total is "+ (randomRoll1 + randomRoll2)+"!\n");
+            System.out.println(count);
 
         }
 
