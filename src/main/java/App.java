@@ -22,8 +22,7 @@ public class App {
         System.out.println("Roll #1: " + randomRoll1 );
         System.out.println("Roll #2: " + randomRoll2 );
 
-        System.out.println("The total is "+ (randomRoll1 + randomRoll2)+"!");
-        System.out.println(count+"\n");
+        System.out.println("The total is "+ (randomRoll1 + randomRoll2)+"!\n");
 
         while(randomRoll1 != randomRoll2){
             count ++;
